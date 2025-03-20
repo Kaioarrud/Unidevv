@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/*
+body{
+    background-image: url(imagem/fundoo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+   
+    background-color: black;
+}
+.logo{
+    width: 90px;
+    height: 70px;
+}
+ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+li{
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+li a:hover{
+    border-bottom: 1px solid white;
+    color:white;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    border: 1px solid black;
+    margin: 10px;
+    width: 195px;
+    height: 150px;
+}
